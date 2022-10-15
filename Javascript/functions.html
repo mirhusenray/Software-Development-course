@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+    //    document.write("mirhusenray"+"<br>");
+    //    document.write("mirhusenray"+"<br>");
+    //    document.write("mirhusen"+"<br>");
+    //    document.write("mirhusen"+"<br>");
+    //    document.write("mirhusen"+"<br>");
+
+
+        // function name()
+        // {
+          
+        //     document.write("mir"+"<br>");
+        // }
+        // name();
+        // name();
+        // name();
+        // name();
+        // name();
+
+// Examle of function with parameter
+//         function demo(fname="sohel", lname="Husen")
+//         {
+// document.write("hello" +"<br>" + fname+"<br>" + lname);
+//         }
+
+//          demo("mir");
+
+
+//  function sum(a=30,b=40)
+//  {
+//     document.write("the sum of two number: "+(a-b));
+//  }
+
+//  sum(20,30);
+
+//  Example of array function 
+
+
+// let hello=()=>document.write("example of arraw function");
+ 
+// hello();
+
+// var a=[20,"mirhusen",40,60];
+
+// for(i=0;i<=3;i++)
+// {
+//     document.write(typeof a);
+//     // document.write("<br>");
+// }
+
+// var a="5";
+// var b=5;
+// document.write(typeof b);
+
+var arr=[ 
+    ["mirhusen",25,"kalaiya-18"],
+ ["rajan",20,"kalaiya-14"],
+   ["abdullah",20,"kalaiya-7"],
+   ["sohel",20,"kalaiya-3"]
+];
+document.write("<table border='5px'>");
+for(var a=0;a<4;a++)
+
+// this loop is used for rows
+{
+   
+    document.write("<tr>");
+   
+        for(var b=0;b<2;b++)
+        // this loop is used for column
+        {
+           
+            document.write("<td>"+arr[a][b]+"</td>");
+        }
+// a=0 (b=0,1,2)
+// a=1 (b=0,1,2)
+// a=2  (b=0,1,2)
+
+document.write("</tr>");
+}
+document.write("</table>");
+</script>
+</body>
+</html>

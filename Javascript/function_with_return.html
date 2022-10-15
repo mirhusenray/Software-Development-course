@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function with return</title>
+</head>
+<body>
+    <script>
+        function sum(a=30,b=20,c=0)
+        {
+            var sum=a+b+c;
+
+            return sum;
+        }
+
+        function percentage(tt)
+        {
+            var per=(total/300)*100;
+
+            document.write(per);
+        }
+
+        var total=sum(2);
+         percentage(total);
+        console.log(total);
+    </script>
+</body>
+</html>
