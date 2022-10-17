@@ -1,0 +1,10 @@
+jQuery Effects
+    jQuery enables us to add effects on a web page. jQuery effects can be categorized into 
+    fading, sliding, hiding/showing and animation effects. jQuery provides many methods
+     for effects on a web page.
+     
+ 1) Hide and Show
+ 2) Toggle
+ 3) Slide
+ 4) Fade
+ 5) Animate
